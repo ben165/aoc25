@@ -102,7 +102,7 @@ for i in range(0, len(lst)):
 
 # Filter out rectangles were points are in between
 for i in range(0, len(lst)):
-  if (lst[1] == 0):
+  if (lst[i][1] == 0):
     continue
   
   for j in range(0, len(points2)):
