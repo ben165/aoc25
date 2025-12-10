@@ -49,7 +49,10 @@ for i in range(0, len(xy)):
 # Saves the points for plotting
 #plot(xy)
 
-# I plottet all the points, look at image.png
+# I plottet all the points, look at full.gif and half.gif
+# In this way I were able to skip a big range of points 
+# which are not valid. I suggested the biggest rectangle 
+# is created with points in the lower part of the circle.
 # Only using points with y > 20000 and y < 48300
 
 ymax = 48300
